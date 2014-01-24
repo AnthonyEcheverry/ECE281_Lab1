@@ -8,6 +8,7 @@ Let me introduce you....to the longest Pre-lab in history.
 ![Picture_1][picture_1] 
 
   Pictured above is the truth table that I made by hand where the inputs are in binary and the outputs are the expected values for the 2's complement.  By looking over this truth table and double checking my values, it looks like they are correct. However, I can't know that these are correct for sure until I check the converter in VHDL using ISIM which is pictured below.
+  Also listed above are my K-Maps which allowed me to easily make simplified SOP equations for each output function.  This also helped me draw my schematic which especially came in handy for output "X."
 
 [picture_1]: https://raw2.github.com/AnthonyEcheverry/ECE281_Lab1/master/Lab1_truthtable.PNG "Truth Table"
 
