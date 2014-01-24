@@ -40,19 +40,19 @@ end Lab1_Echeverry_Anthony;
 
 architecture Behavioral of Lab1_Echeverry_Anthony is
 
-signal A_NOT, B_NOT, C_NOT, D, E, F, G, H, I : STD_LOGIC;
+signal A_NOT, B_NOT, C_NOT, D, E, F, G, H, I, J, K: STD_LOGIC;
 
 begin
 
-A_NOT<=A_NOT;
-B_NOT<=B_NOT;
-C_NOT<=C_NOT;
+A_NOT<=not A;
+B_NOT<=not B;
+C_NOT<=not C;
 D<=B OR C;
-E<=A_NOT AND D;
-F<=A AND B_NOT;
-G<=B_NOT AND C;
-H<=B AND C_NOT;
-I<=F AND C_NOT;
+E<=NOT A AND D;
+F<=A AND NOT B;
+G<=NOT B AND C;
+H<=B AND NOT C;
+I<=F AND NOT C;
 X<=E OR I;
 Y<=G OR H;
 Z<=C;
