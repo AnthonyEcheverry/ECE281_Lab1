@@ -17,6 +17,6 @@ Let me introduce you....to the longest Pre-lab in history.
 
 # Just for some extra fun (Schematic of Circuit)
 
-[Picture_3][picture_3]
+![Picture_3][picture_3]
 
 [picture_3]:https://raw2.github.com/AnthonyEcheverry/ECE281_Lab1/master/Lab1_Schematic.png "Schematic"
