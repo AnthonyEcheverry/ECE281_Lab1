@@ -16,7 +16,7 @@ Let me introduce you....to the longest Pre-lab in history.
 
 ![Picture_2][picture_2]
 
-  Yes! After inputting the truthtable and schematic into VHDL I was able to check the values in ISIM and see that they are indeed correct with my predicted values.  To implement this into VHDL all I did was look at my schematic (pictured below) and interpreted it into signals in my main code before creating a test bench which built off of it.  
+  Yes! After inputting the truthtable and schematic into VHDL I was able to check the values in ISIM and see that they are indeed correct with my predicted values.  To implement this into VHDL all I did was look at my schematic (pictured below) and interpreted it into signals in my main code before creating a test bench which built off of it.  We can see that it checks out when you look at the value for "001" in unsigned, the chart shows us that it becomes "110" for 2's compliment which is exactly the value we wanted.
 
 
 [picture_2]: https://raw2.github.com/AnthonyEcheverry/ECE281_Lab1/master/Lab1_testbench.PNG "ISIM"
