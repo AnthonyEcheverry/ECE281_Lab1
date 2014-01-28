@@ -1,0 +1,35 @@
+##=============Slide Switches=========
+#NET "A" LOC = "R17";
+#NET "B" LOC = "N17";
+#Net "C" LOC = "L13";
+#
+
+
+#std_logic_vectors
+
+NET "din<0>" LOC = "G18";
+NET "din<1>" LOC = "H18";
+NET "din<2>" LOC = "K18";
+NET "din<3>" LOC = "K17";
+NET "din<4>" LOC = "L14";
+NET "din<5>" LOC = "L13";
+NET "din<6>" LOC = "N17";
+NET "din<7>" LOC = "R17";
+
+
+##=============LED Outputs Constraints======
+#Net "X" LOC = "R4";
+#NET "Y" LOC = "F4";
+#NET "Z" LOC = "P15";
+#
+
+#8 bit outputs
+
+NET "dout<0>" LOC = "J14";
+NET "dout<1>" LOC = "J15";
+NET "dout<2>" LOC = "K15";
+NET "dout<3>" LOC = "K14";
+NET "dout<4>" LOC = "E17";
+NET "dout<5>" LOC = "P15";
+NET "dout<6>" LOC = "F4";
+NET "dout<7>" LOC = "R4";
