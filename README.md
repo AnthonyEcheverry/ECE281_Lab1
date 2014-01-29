@@ -1,7 +1,6 @@
 ECE281_Lab1
 ===========
 
-Let me introduce you....to the longest Pre-lab in history.
 
 # Truth Table (Expected Values)
 
@@ -27,3 +26,7 @@ Let me introduce you....to the longest Pre-lab in history.
   This is the schematic that I created through looking at my truthtable and using my simplified boolean equations.  It allowed me to easily insert the right signals into VHDL to be simulated in ISIM. For example, we can see on the schematic that the combination of "001," or "A'B'C" should give us an output of "XYZ," or "111."  By looking at the schematic we can see that this checks out.  
 
 [picture_3]:https://raw2.github.com/AnthonyEcheverry/ECE281_Lab1/master/Lab1_Schematic.png "Schematic"
+
+#Testing and Debugging
+
+  The first thing I had to do for this lab was create a 3 bit truth table where inputs "A,B,C" represented the values 0-7 in binary while outputs "X,Y,Z" represent the two's complement component of the binary input.  When making this truthtable I got it on my first try and ran into no errors.
